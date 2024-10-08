@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-08 22:57:35.250776",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "profile_name",
+  "zone",
+  "expected_usage",
+  "peak_demand",
+  "operational_hours"
+ ],
+ "fields": [
+  {
+   "fieldname": "profile_name",
+   "fieldtype": "Data",
+   "label": "Profile Name"
+  },
+  {
+   "fieldname": "zone",
+   "fieldtype": "Data",
+   "label": "Zone"
+  },
+  {
+   "fieldname": "expected_usage",
+   "fieldtype": "Data",
+   "label": "Expected Usage (kWh)"
+  },
+  {
+   "fieldname": "peak_demand",
+   "fieldtype": "Data",
+   "label": "Peak Demand"
+  },
+  {
+   "fieldname": "operational_hours",
+   "fieldtype": "Int",
+   "label": "Operational Hours"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 22:59:31.008017",
+ "modified_by": "Administrator",
+ "module": "EMS",
+ "name": "Energy Profile",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

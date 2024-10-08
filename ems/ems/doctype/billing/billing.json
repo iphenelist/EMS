@@ -1,0 +1,74 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-08 22:17:53.910551",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "billing_period",
+  "total_consumption",
+  "energy_source",
+  "unit_cost",
+  "total_cost",
+  "payment_status"
+ ],
+ "fields": [
+  {
+   "fieldname": "billing_period",
+   "fieldtype": "Select",
+   "label": "Billing Period",
+   "options": "Daily\nWeekly\nMonthly\nQuaterly\nYearly"
+  },
+  {
+   "fieldname": "total_consumption",
+   "fieldtype": "Data",
+   "label": "Total Consumption"
+  },
+  {
+   "fieldname": "energy_source",
+   "fieldtype": "Link",
+   "label": "Energy Source",
+   "options": "Source"
+  },
+  {
+   "fieldname": "unit_cost",
+   "fieldtype": "Currency",
+   "label": "Unit Cost"
+  },
+  {
+   "fieldname": "total_cost",
+   "fieldtype": "Currency",
+   "label": "Total Cost"
+  },
+  {
+   "fieldname": "payment_status",
+   "fieldtype": "Select",
+   "label": "Payment Status",
+   "options": "Pending\nPaid\nUnpaid"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 22:21:25.616440",
+ "modified_by": "Administrator",
+ "module": "EMS",
+ "name": "Billing",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

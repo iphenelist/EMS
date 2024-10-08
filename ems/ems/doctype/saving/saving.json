@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-08 22:21:45.833402",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "period",
+  "initial_consumption",
+  "final_consumption",
+  "savings",
+  "savings_in_cost",
+  "energy_conservation_measures"
+ ],
+ "fields": [
+  {
+   "fieldname": "period",
+   "fieldtype": "Select",
+   "label": "Period",
+   "options": "Daily\nWeekly\nMonthly\nQuaterly\nYearly"
+  },
+  {
+   "fieldname": "initial_consumption",
+   "fieldtype": "Data",
+   "label": "Initial Consumption"
+  },
+  {
+   "fieldname": "final_consumption",
+   "fieldtype": "Data",
+   "label": "Final Consumption"
+  },
+  {
+   "fieldname": "savings",
+   "fieldtype": "Data",
+   "label": "Savings (kWh)"
+  },
+  {
+   "fieldname": "savings_in_cost",
+   "fieldtype": "Currency",
+   "label": "Savings in Cost"
+  },
+  {
+   "fieldname": "energy_conservation_measures",
+   "fieldtype": "Small Text",
+   "label": "Energy Conservation Measures"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 22:28:56.740028",
+ "modified_by": "Administrator",
+ "module": "EMS",
+ "name": "Saving",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

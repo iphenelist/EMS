@@ -1,0 +1,81 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-10-07 23:33:26.574955",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "location",
+  "energy_source",
+  "installation_date",
+  "data_wyzu",
+  "current_reading",
+  "meter_type",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Address"
+  },
+  {
+   "fieldname": "energy_source",
+   "fieldtype": "Link",
+   "label": "Energy Source",
+   "options": "Source"
+  },
+  {
+   "fieldname": "installation_date",
+   "fieldtype": "Date",
+   "label": "Installation Date"
+  },
+  {
+   "fieldname": "data_wyzu",
+   "fieldtype": "Data"
+  },
+  {
+   "fieldname": "current_reading",
+   "fieldtype": "Data",
+   "label": "Current Reading"
+  },
+  {
+   "fieldname": "meter_type",
+   "fieldtype": "Data",
+   "label": "Meter Type"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Naming Series",
+   "options": "RF-EM-"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 22:42:29.140810",
+ "modified_by": "Administrator",
+ "module": "EMS",
+ "name": "Energy Meter",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

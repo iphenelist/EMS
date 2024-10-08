@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-08 22:12:37.207845",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "source",
+  "energy_generated",
+  "generation_site",
+  "equipment_used"
+ ],
+ "fields": [
+  {
+   "fieldname": "source",
+   "fieldtype": "Link",
+   "label": "Source",
+   "options": "Source"
+  },
+  {
+   "fieldname": "energy_generated",
+   "fieldtype": "Data",
+   "label": "Energy Generated (kWh)"
+  },
+  {
+   "fieldname": "generation_site",
+   "fieldtype": "Data",
+   "label": "Generation Site"
+  },
+  {
+   "fieldname": "equipment_used",
+   "fieldtype": "Data",
+   "label": "Equipment Used"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 22:16:52.355425",
+ "modified_by": "Administrator",
+ "module": "EMS",
+ "name": "Energy Generation",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,0 +1,80 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-07 23:41:07.016993",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "energy_consumption",
+  "meter_id",
+  "energy_meter",
+  "source",
+  "cost",
+  "associated_equipment",
+  "location"
+ ],
+ "fields": [
+  {
+   "fieldname": "energy_consumption",
+   "fieldtype": "Datetime",
+   "label": "Energy Consumption "
+  },
+  {
+   "fieldname": "meter_id",
+   "fieldtype": "Link",
+   "label": "Meter ID",
+   "options": "Energy Meter"
+  },
+  {
+   "fieldname": "energy_meter",
+   "fieldtype": "Int",
+   "label": "Energy Meter"
+  },
+  {
+   "fieldname": "source",
+   "fieldtype": "Link",
+   "label": "Source",
+   "options": "Source"
+  },
+  {
+   "fieldname": "cost",
+   "fieldtype": "Currency",
+   "label": "Cost"
+  },
+  {
+   "fieldname": "associated_equipment",
+   "fieldtype": "Small Text",
+   "label": "Associated Equipment"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "label": "Location",
+   "options": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-07 23:44:43.002778",
+ "modified_by": "Administrator",
+ "module": "EMS",
+ "name": "Energy Consumption",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

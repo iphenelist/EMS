@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-08 22:59:53.984151",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "energy_source",
+  "consumption_data",
+  "emission_factor",
+  "total_emissions"
+ ],
+ "fields": [
+  {
+   "fieldname": "energy_source",
+   "fieldtype": "Link",
+   "label": "Energy Source",
+   "options": "Source"
+  },
+  {
+   "fieldname": "consumption_data",
+   "fieldtype": "Data",
+   "label": "Consumption Data"
+  },
+  {
+   "fieldname": "emission_factor",
+   "fieldtype": "Data",
+   "label": "Emission Factor"
+  },
+  {
+   "fieldname": "total_emissions",
+   "fieldtype": "Data",
+   "label": "Total Emissions"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-08 23:01:03.655504",
+ "modified_by": "Administrator",
+ "module": "EMS",
+ "name": "Carbon Emissions",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
