@@ -9,7 +9,7 @@
   "location",
   "energy_source",
   "installation_date",
-  "data_wyzu",
+  "column_break_zmjl",
   "current_reading",
   "meter_type",
   "naming_series"
@@ -33,29 +33,31 @@
    "label": "Installation Date"
   },
   {
-   "fieldname": "data_wyzu",
-   "fieldtype": "Data"
-  },
-  {
    "fieldname": "current_reading",
    "fieldtype": "Data",
    "label": "Current Reading"
   },
   {
    "fieldname": "meter_type",
-   "fieldtype": "Data",
-   "label": "Meter Type"
+   "fieldtype": "Link",
+   "label": "Meter Type",
+   "options": "Meter Type"
   },
   {
    "fieldname": "naming_series",
    "fieldtype": "Select",
+   "hidden": 1,
    "label": "Naming Series",
    "options": "RF-EM-"
+  },
+  {
+   "fieldname": "column_break_zmjl",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-08 22:42:29.140810",
+ "modified": "2024-10-16 15:21:55.803976",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Energy Meter",

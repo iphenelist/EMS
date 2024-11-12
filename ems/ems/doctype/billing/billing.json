@@ -8,6 +8,8 @@
   "billing_period",
   "total_consumption",
   "energy_source",
+  "demand",
+  "column_break_pyrs",
   "unit_cost",
   "total_cost",
   "payment_status"
@@ -45,11 +47,20 @@
    "fieldtype": "Select",
    "label": "Payment Status",
    "options": "Pending\nPaid\nUnpaid"
+  },
+  {
+   "fieldname": "column_break_pyrs",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "demand",
+   "fieldtype": "Data",
+   "label": "Demand Charge (KVA)"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-08 22:21:25.616440",
+ "modified": "2024-10-19 19:46:07.492914",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Billing",

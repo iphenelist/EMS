@@ -9,6 +9,7 @@
   "initial_consumption",
   "final_consumption",
   "savings",
+  "column_break_hjgb",
   "savings_in_cost",
   "energy_conservation_measures"
  ],
@@ -43,11 +44,15 @@
    "fieldname": "energy_conservation_measures",
    "fieldtype": "Small Text",
    "label": "Energy Conservation Measures"
+  },
+  {
+   "fieldname": "column_break_hjgb",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-08 22:28:56.740028",
+ "modified": "2024-10-19 19:53:12.925020",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Saving",

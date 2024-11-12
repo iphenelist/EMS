@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2024-10-07 23:41:07.016993",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -8,10 +9,12 @@
   "energy_consumption",
   "meter_id",
   "energy_meter",
-  "source",
   "cost",
+  "column_break_ahsm",
+  "source",
   "associated_equipment",
-  "location"
+  "location",
+  "naming_series"
  ],
  "fields": [
   {
@@ -51,14 +54,26 @@
    "fieldtype": "Link",
    "label": "Location",
    "options": "Address"
+  },
+  {
+   "fieldname": "column_break_ahsm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "EC-.YY..MM..YY.-"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 23:44:43.002778",
+ "modified": "2024-10-16 15:07:34.337491",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Energy Consumption",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

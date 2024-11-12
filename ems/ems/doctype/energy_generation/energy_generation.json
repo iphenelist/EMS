@@ -1,14 +1,17 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "naming_series:",
  "creation": "2024-10-08 22:12:37.207845",
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
   "source",
   "energy_generated",
+  "column_break_ffbo",
   "generation_site",
-  "equipment_used"
+  "equipment_used",
+  "naming_series"
  ],
  "fields": [
   {
@@ -24,21 +27,34 @@
   },
   {
    "fieldname": "generation_site",
-   "fieldtype": "Data",
-   "label": "Generation Site"
+   "fieldtype": "Link",
+   "label": "Generation Site",
+   "options": "Generation Site"
   },
   {
    "fieldname": "equipment_used",
    "fieldtype": "Data",
    "label": "Equipment Used"
+  },
+  {
+   "fieldname": "column_break_ffbo",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "hidden": 1,
+   "label": "Naming Series",
+   "options": "EG-.YY..MM..DD.-"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-08 22:16:52.355425",
+ "modified": "2024-10-16 16:22:28.039205",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Energy Generation",
+ "naming_rule": "By \"Naming Series\" field",
  "owner": "Administrator",
  "permissions": [
   {

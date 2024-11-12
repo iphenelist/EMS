@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "field:source_name",
  "creation": "2024-10-07 23:28:15.711174",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -8,20 +9,22 @@
   "source_name",
   "type",
   "supplier",
-  "cost_per_unit",
-  "environmental_impact"
+  "column_break_tjzl",
+  "environmental_impact",
+  "cost_per_unit"
  ],
  "fields": [
   {
    "fieldname": "source_name",
    "fieldtype": "Data",
-   "label": "Source Name"
+   "label": "Source Name",
+   "unique": 1
   },
   {
    "fieldname": "type",
    "fieldtype": "Select",
    "label": "Type",
-   "options": "Renewable\nNon-Renewable"
+   "options": "\nRenewable\nNon-Renewable"
   },
   {
    "fieldname": "supplier",
@@ -37,14 +40,19 @@
    "fieldname": "environmental_impact",
    "fieldtype": "Small Text",
    "label": "Environmental Impact"
+  },
+  {
+   "fieldname": "column_break_tjzl",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-10-07 23:32:57.844049",
+ "modified": "2024-10-16 14:57:30.170571",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Source",
+ "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [
   {

@@ -9,6 +9,7 @@
   "amended_from",
   "audit_date",
   "auditor_name",
+  "column_break_iwkz",
   "audit_findings",
   "recommendations",
   "estimated_savings"
@@ -52,12 +53,16 @@
    "fieldname": "estimated_savings",
    "fieldtype": "Currency",
    "label": "Estimated Savings"
+  },
+  {
+   "fieldname": "column_break_iwkz",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-08 22:49:20.833296",
+ "modified": "2024-10-19 19:59:50.533498",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Energy Audit",

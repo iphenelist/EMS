@@ -9,6 +9,7 @@
   "amended_from",
   "equipment_id",
   "efficiency_rating",
+  "column_break_gmnb",
   "energy_used",
   "output_generated",
   "maintenance_data"
@@ -52,12 +53,16 @@
    "fieldname": "maintenance_data",
    "fieldtype": "Data",
    "label": "Maintenance Data"
+  },
+  {
+   "fieldname": "column_break_gmnb",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-10-08 22:44:23.104628",
+ "modified": "2024-10-19 19:57:15.470349",
  "modified_by": "Administrator",
  "module": "EMS",
  "name": "Energy Efficiency",
